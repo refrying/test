@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "potionhud",
+  "version": "1.0.0",
+  "name": "Potion HUD (5zig Style)",
+  "description": "Displays active potion effects in a 5zig-style HUD",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.potionhud.PotionHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
